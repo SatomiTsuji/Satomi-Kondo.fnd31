@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="ToDoList.css">
+      <title>Task list</title>
+   </head>
+
+   <body background="C:\Users\1470613\OneDrive - トヨタ自動車株式会社\デスクトップ\foundations\Le-jardin-Sengan-En.png">
+      <h1>🐊Task List🐊</h1>
+        <div id="parent">
+          <div class = "input">
+          <h2>Add a task</h2>
+            <p id="inputbox">
+               <label for ="inputTaskfor" color="#8a8787">タスクを入力してください</label><br>
+               <input id ="inputTask" type="Text" size="30" name ="Task">  
+            </p>
+            <p id="inputbox2"><br>
+               <label for ="inputContentfor" color="#8a8787">内容を入力してください</label><br>
+               <textarea id ="inputContent" type="Text"  rows="4" cols="50"></textarea>   
+            </p>
+            <p><button id ="register">Add</button></p>            
+        </div>
+        <div class = "summery">
+          <h3>Current Task</h3>
+            <ul id="list">
+            </ul> 
+        </div>
+      </div>  
+      <script src="script.js"></script>
+        
+   </body>
+</html>
