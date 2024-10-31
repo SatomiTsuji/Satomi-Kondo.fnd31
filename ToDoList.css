@@ -1,0 +1,116 @@
+
+body {
+    background-color: lightblue;
+    position: relative
+  }
+  
+  h1 {
+    height: 100px;
+    line-height:100px;
+    text-align:center;
+    font-size: 40px;
+ 
+    
+  }
+
+  #parent {
+    display: flex;
+  }
+  
+  .input {
+    /* flex-grow: 1; */
+    margin: 0 auto;
+    width: 600px;
+    height: 800px;
+    display: inline-block;
+    border-radius: 40px;
+    background: rgba(246, 244, 244, 0.7);
+    /* width:200px;
+    height:100px; */
+   }
+    /* padding-top: 20px; */   
+  
+  
+  .summery {
+    /* flex-grow: 1; */
+    margin: 0 auto;
+    width: 600px;
+    height: 800px;
+    display: inline-block;
+    border-radius: 40px;
+    background: rgba(247, 181, 237, 0.6);
+    /* padding-top: 20px; */   
+  }
+  
+  #inputbox {
+    width: fit-content;
+    margin: auto;  
+  }
+  
+  #inputbox2 {
+    width: fit-content;
+    margin: auto; 
+  }
+  
+  h2 {
+    height: 100px;
+    text-align:center;
+    font-size: 30px;
+
+  }
+  
+  
+  h3 {
+    height: 100px;
+    text-align:center;
+    font-size: 30px;
+  }
+  
+  #list {
+    width: 500px;
+    margin: auto;
+  }
+  
+  #register {
+    display: block;
+    margin: 0 auto;
+    background-color: #71c8e8;
+    border-radius: 25px;
+    width: 70px;;
+    height: 40px;
+    font-size: 100%;
+    border: none;
+  }
+  
+  li button {
+    border-radius: 25px;
+    background-color: #e5808f;
+    float: right;
+    width: 70px;;
+    height: 30px;
+    font-size: 80%;
+    border: none;
+  }  
+  
+  li {
+    font-weight:bold;
+    font-size: 20px;
+  }
+ 
+#inputTask {  
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    
+    outline: none; 
+    width: 400px; 
+}
+
+#inputContent {  
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    
+    outline: none; 
+    width: 400px; 
+    }
